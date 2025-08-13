@@ -29,3 +29,17 @@
         resultado.innerHTML = 'Erro: ' + error.message;
       });
   });
+
+
+  function mudarTema(tema) {
+    document.body.className = tema;
+    localStorage.setItem("temaSalvo", tema);
+}
+
+// Carregar o tema salvo ao abrir a página
+window.onload = function() {
+    let tema = localStorage.getItem("temaSalvo");
+    if (tema) {
+    document.body.className = tema;
+    }
+}

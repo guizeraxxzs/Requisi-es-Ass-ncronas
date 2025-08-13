@@ -17,7 +17,7 @@
                 })
               }
   </script>
-  <title>Document</title>
+  <title>Studio Ghibli</title>
 </head>
 <body> <!-- Título -->
     <div class="header">
@@ -46,15 +46,17 @@
                     <a class="nav-link active" aria-current="page" href="#">Notícias</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link" href="avaliacao.html">Avaliação</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Catálogo
+                     Temas
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Alugar</a></li>
-                      <li><a class="dropdown-item" href="#">Comprar</a></li>
+                      <li><a class="dropdown-item" onclick="mudarTema('claro')">Tema Claro</a></li>
+                      <li><a class="dropdown-item" onclick="mudarTema('escuro')">Tema Escuro</a></li>
+                      <li><a class="dropdown-item" onclick="mudarTema('ponyo')">Ponyo</a></li>
+                      <li><a class="dropdown-item" onclick="mudarTema('chihiro')">A Viagem de Chihiro</a></li>
                       <li><hr class="dropdown-divider"></li>
                     </ul>
                   </li>
@@ -98,7 +100,7 @@
                 <div class="card" style="width: 25rem;">
                     <img src="https://i0.wp.com/gkids.com/wp-content/uploads/2025/04/GF25_Trailer_Thumbnail_16x9.jpg?fit=1280%2C720&ssl=1" class="card-img-top" alt="Curso">
                     <div class="card-body">
-                        <h5>Digite o nome de um filme</h5>
+                        <h4 color="text-white">Digite o nome de um filme:</h4>
   
                         <input type="text" id="filmes" placeholder="Ex: O Mundo dos Pequeninos">
                         <button id="buscar">Buscar</button>
@@ -166,8 +168,8 @@
                     </p>
                     <ul>
                       <li>Oscar de Melhor Animação por <strong>A Viagem de Chihiro</strong> (2003)</li>
-                      <li>Urso de Ouro no Festival de Berlim</li>
-                      <li>Prêmio do Júri em Cannes</li>
+                      <li>Urso de Ouro no Festival de Berlim (2002)</li>
+                      <li>Prêmio do Júri em Cannes (1988)</li>
                       <li>Vários prêmios da Academia Japonesa</li>
                     </ul>
                     <p class="card-text"><em>Essas conquistas solidificaram o estúdio como uma lenda no cinema de animação.</em></p>

@@ -267,3 +267,17 @@ body {
   margin-bottom: 5px;
 }
 
+ body.claro {
+      background-color: white;
+      color: black;
+    }
+    body.escuro {
+      background-color: #121212;
+      color: white;
+    }
+    body.ponyo {
+      background-image: url('https://sm.ign.com/ign_br/screenshot/default/lighthead_wqkc.jpg');
+    }
+    body.chihiro {
+      background-image: url('https://i0.wp.com/studioghibli.com.br/wp-content/uploads/2020/04/A-Viagem-de-Chihiro-chihiro-e-haku.jpg?fit=1920%2C1082&ssl=1');
+    }
